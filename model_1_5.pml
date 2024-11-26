@@ -51,11 +51,11 @@ proctype forbidden_cases()
 
 init
 {
-	run allowed_cases();
-	//run forbidden_cases();
+	// run allowed_cases();
+	run forbidden_cases();
 }
 
-#define SOLUTION1 (  )
+#define SOLUTION1 ([] (p->(X[](!p))))
 
 ltl  p1 {  ( SOLUTION1 ) }
 ltl np1 { !( SOLUTION1 ) }

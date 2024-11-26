@@ -52,7 +52,7 @@ init
 	//run forbidden_cases();
 }
 
-#define SOLUTION1 (  )
+#define SOLUTION1 (<>p && ([](p->X[](!p))) )
 
 ltl  p1 {  ( SOLUTION1 ) }
 ltl np1 { !( SOLUTION1 ) }

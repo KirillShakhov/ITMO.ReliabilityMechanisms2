@@ -63,7 +63,7 @@ init
 	//run forbidden_cases();
 }
 
-#define SOLUTION1 (  )
+#define SOLUTION1 (<>a && ([](a->b)))
 
 ltl  p1 {  ( SOLUTION1 ) }
 ltl np1 { !( SOLUTION1 ) }
