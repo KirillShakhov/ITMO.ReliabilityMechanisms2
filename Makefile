@@ -1,5 +1,5 @@
 # Имя файла с Promela моделью
-MODEL=model_1_1.pml
+MODEL=model_1_2.pml
 
 # Имя скомпилированного исполняемого файла
 PAN=pan
@@ -25,10 +25,8 @@ verify-np1: $(PAN)
 	@echo "Запуск проверки свойства np1 (LTL #2)"
 	./$(PAN) -N np1
 
-# Объединенная цель для удобного вызова
-verify: verify-p1 verify-np1
-
 # Удаление временных файлов
 clean:
 	rm -f $(PAN) pan.* *.trail
-	rm -f _spin_nvr.tmp
+	rm -f *.tmp
+	rm -f *.trail
